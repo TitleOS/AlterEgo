@@ -1,0 +1,34 @@
+// AlterEgo 10x10 monochrome icon for Flipper Zero FAP.
+// Format: XBM (X BitMap) — 1 bit per pixel, LSB first.
+// Generated for: application.fam fap_icon = "images/alterego_10x10.png"
+//
+// Pattern (A with star burst, 10x10):
+//   . . . * . . . . . .
+//   . . * . * . . . . .
+//   . * . . . * . . . .
+//   * * * * * * . * . .
+//   * . . . . * . . * .
+//   * . . . . * . * . *
+//   * . . . . * * . . .
+//   . . . . . * . . . .
+//   . . . . . . . . . .
+//   . . . . . . . . . .
+//
+// This file mirrors the raw icon bytes Flipper would generate from a PNG.
+// ufbt will convert the PNG below; this is for documentation reference only.
+
+#define alterego_10x10_width   10
+#define alterego_10x10_height  10
+
+static const uint8_t alterego_10x10_bits[] = {
+    0x08, 0x00,
+    0x14, 0x00,
+    0x22, 0x00,
+    0x3E, 0x02,
+    0x22, 0x01,
+    0x22, 0x05,
+    0x22, 0x03,
+    0x00, 0x02,
+    0x00, 0x00,
+    0x00, 0x00,
+};

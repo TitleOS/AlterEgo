@@ -1,0 +1,16 @@
+App(
+    appid="alter_ego",
+    name="AlterEgo",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="alter_ego_app",
+    requires=[
+        "gui",
+        "storage",
+        "dialogs",
+    ],
+    stack_size=4 * 1024,
+    fap_category="NFC",
+    fap_version=(1, 0),
+    fap_description="Amiibo AI Editor for Super Smash Bros. Ultimate & 4 Wiiu & 3ds",
+    fap_author="TitleOS",
+)
