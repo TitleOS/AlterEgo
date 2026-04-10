@@ -82,6 +82,12 @@ installed to `/ext/apps/NFC/` on your Flipper if using ufbt launch.
 
 ---
 
+![Main Menu](alterego_main_menu.png)
+
+![Scanned Amiibo (Pikachu Ultimate)](alterego_scanned_ult.png)
+
+---
+
 ## Project Layout
 
 ```
